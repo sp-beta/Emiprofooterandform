@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer with Tailwind CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="bg-blue-100">
+        <div class="items-center justify-center">
+            <p class="text-center p-14 text-3xl font-serif"><i class="fa-solid fa-handshake-angle pr-3"></i><b>CONTACT US TO TRANSFORM</b></p>
+        </div>
+        <div class="flex items-center justify-center">
+            <div class="bg-white pr-8 pl-8 pb-8 pt-4 rounded-lg shadow-md w-full max-w-2xl">
+                <form class="space-y-4 p-9">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="col-span-1 sm:col-span-2">
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name<span class="text-red-500">*</span></label>
+                            <input type="text" id="name" name="name" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50" />
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email <span class="text-red-500">*</span></label>
+                            <input type="email" id="email" name="email" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50" />
+                        </div>
+                        <div>
+                            <label for="number" class="block text-sm font-medium text-gray-700">Number<span class="text-red-500">*</span></label>
+                            <input type="text" id="number" name="number" required value="+91" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50" />
+                        </div>
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200 focus:ring-opacity-50"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                            Send Message
+                        </button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-gray-900 text-white">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 p-8 bg-gray-800 border-b border-gray-600 ">
+            <div class="space-y-4">
+                <div class="border-b  border-gray-600">
+                    <img src="emipro.svg" alt="Emipro Logo" class="w-32 pb-5">
+                </div>
+                <p class="">We, Emipro, are a prominent end-to-end ERP implementation services provider company. We deliver an integrated business management experience that maximises efficiency, increase productivity, and ensures sustainable growth. We offer enterprise business solutions to our vast customer base across the globe with a diverse experience in various business domains such as Manufacturing, Retail, Supply Chain, Transport Logistics, Food Beverages, FMCG, Professional Services, Wholesale, Distribution, eCommerce, and many more.</p>
+                <div class="flex border-b border-gray-600 pb-2  ">
+                    <div class="border-r  border-gray-600">
+                        <img src="odoo15.png" alt="">
+                    </div>
+                    <div class="">
+                        <img src="Awards 2019.png" alt="">
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="border-r  border-gray-600">
+                        <img src="odoo15.png" alt="">
+                    </div>
+                    <div class="border-r  border-gray-600">
+                        <img src="odoo16.png" alt="">
+                    </div>
+                    <div>
+                        <img src="odoo17.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="space-y-2">
+                <h4 class=" text-xl font-bold md:mb-4"><a class="fas fa-users pr-2"></a>WHO WE ARE</h4>
+                <ul class="space-y-1 pb-3">
+                    <li><a href="#" class="hover:underline">About Us</a></li>
+                    <li><a href="#" class="hover:underline">Our Core Philosophy</a></li>
+                    <li><a href="#" class="hover:underline">Customer Success Stories</a></li>
+                    <li><a href="#" class="hover:underline">Careers</a></li>
+                    <li><a href="#" class="hover:underline">Blogs</a></li>
+                </ul>
+                <h4 class="mt-4 text-xl font-bold md:mb-4"><a class="pr-2 fas fa-link"></a>USEFUL LINKS</h4>
+                <ul class="space-y-1">
+                    <li><a href="#" class="hover:underline">Code Of Conduct</a></li>
+                    <li><a href="#" class="hover:underline">Contact Us</a></li>
+                    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:underline">Support Policy</a></li>
+                    <li><a href="#" class="hover:underline">Referral Policy</a></li>
+                </ul>
+
+                
+
+            </div>
+            <div class="space-y-2">
+                <h4 class="text-xl font-bold md:mb-4"><a class="fas fa-briefcase pr-2"></a>WHAT WE DO</h4>
+                <ul class="space-y-1">
+                    <li><a href="#" class="hover:underline">Our Services</a></li>
+                    <li><a href="#" class="hover:underline">Our Odoo Apps</a></li>
+                    <li><a href="#" class="hover:underline">Our Odoo Themes</a></li>
+                    <li><a href="#" class="hover:underline">Book Free Odoo consultation</a></li>
+                    <li><a href="#" class="hover:underline">Helpdesk</a></li>
+                </ul>
+            </div>
+            <div class="">
+                <h4 class="text-xl font-bold">GET IN TOUCH</h4>
+                <div class="mb-3">
+                    <p class="md:pb-5">
+                        <div class="border-b border-gray-600 pb-1 "><strong><a class="fas fa-phone-alt pr-2"></a>Call Us</strong><br></div>
+                        Reception: +91 90237 27171<br>
+                        Careers: +91 90237 27170
+                    </p>
+                </div>
+                <p class="pb-3 md:pb-5">
+                    <div class="border-b border-gray-600 pb-1"><strong class="text-lg "><a class="fas fa-envelope pr-2"></a>Career Email</strong><br></div>
+                    <a href="mailto:careers@emiprotechnologies.com" class="hover:underline">careers@emiprotechnologies.com</a>
+                </p>
+                <p class="mb-7 mt-7">
+                    <div class="border-b border-gray-600 pb-1"><strong class="text-lg"><a class="fas fa-map-marker-alt pr-2"></a>Address</strong><br></div>
+                    2<sup>nd</sup> Floor, "Shyamantak", Everest Park, Near Hotel Regenta RPJ,<br>
+                    Nana Mava, Kalawad Road, Rajkot 360005, Gujarat, India.
+                </p>
+    
+                <div class="flex gap-3 mt-7">
+                    <div class="h-10 w-10">                <img src="download.png" alt="">
+                    </div>
+                    <div class="h-10 w-10">                <img src="download (1).png" alt="">
+                    </div>
+                    <div class="h-10 w-10">                <img src="download (2).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-800 text-white p-5">
+            <span>Copyright © 2024 Emipro Technologies Pvt. Ltd</span>
+        </div>
+    </footer>
+
+</body>
+</html>
